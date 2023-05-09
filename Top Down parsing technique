@@ -62,9 +62,9 @@ int main() {
     printf("Enter an input string: ");
     scanf("%s", input);
     if(parse()) {
-        printf("Input string satisfies the grammar.\n");
+        printf("Input string does not satisfies the grammar.\n");
     } else {
-        printf("Input string does not satisfy the grammar.\n");
+        printf("Input string satisfy the grammar.\n");
     }
     return 0;
 }
